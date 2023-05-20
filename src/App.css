@@ -1,0 +1,107 @@
+
+
+h1{
+ 
+  color: orangered;
+}
+.containear{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  
+  /* display: flex;
+  justify-content: space-between; */
+  margin: 5vh;
+
+
+}
+.contaier-box{
+  
+  
+  
+  border:  1px solid black;
+  padding-left:50px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+
+  align-items: center;
+ 
+}
+
+.img_details{
+  align-items: center;
+}
+
+.btn{
+  padding: 15px 20px;
+ background-color: bisque;
+ font-weight: bold;
+ border-radius: 10px;
+ border: none;
+ margin: 10px 30px 0 30px;
+ margin-bottom: 5px;
+}
+/* p{
+  margin: 10px 30px 0 30px;
+} */
+
+/* .detailsContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10vh;
+} */
+
+
+.productDetails{
+  display: flex;
+  margin-left: 15vh;
+  justify-content: space-between;
+
+}
+
+.productinfo{
+  margin-left: 10vh;
+}
+
+.productinfo h3{
+  color:orangered;
+}
+.otherDetails{
+  margin-left: 10vh; 
+}
+
+.productPage{
+  margin-top: 10vh;
+}
+
+.episode a{
+  
+  text-decoration: none;
+ /* margin-left: 10vh; */
+ 
+  color: orangered;
+  font-size: larger;
+  border: 1px solid black;
+  background-color: bisque;
+  font-weight: bold;
+ border-radius: 10px;
+ border: none;
+
+  padding: 10px 20px;
+}
+.otherDetails h2{
+    color: blueviolet;
+
+}
+.otherDetails p{
+  font-weight:600;
+}
+.backbtn{
+  margin-top: 5vh;
+  margin-left: 5vw;
+  border: none;
+  padding: 10px 20px;
+  background-color: bisque;
+  border-radius: 10px;
+}
